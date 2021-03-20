@@ -1,0 +1,128 @@
+/* Phones, Mobiles and Tablets */
+@media screen and (max-width: 992px)
+{
+    #section-1, #section-2, #section-3, #section-4{
+        width: 100vw;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+
+        margin-bottom: 20px;
+        padding: 50px;
+    }
+
+    #section-1{
+        margin-top: 50px;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        font-weight: 300;
+        color: #1c1c21;
+
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 25px;
+        color: #1c1c21;
+    }
+}
+
+/* Laptops, Desktops and Large Screens */
+@media screen and (min-width: 992px)
+{
+    #section-1, #section-2, #section-3, #section-4{
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: row;
+
+        margin-bottom: 150px;
+    }
+
+        #section-1{
+            margin-top: 250px;
+        }
+
+        #section-3{
+            margin-bottom: 300px;
+        }
+
+        .left{
+            width: 400px;
+            height: 500px;
+
+            background: #1c1c21;
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+
+        .left div{
+            width: 400px;
+            height: 500px;
+
+            position: relative;
+            top: -50px;
+            left: -50px;
+        }
+
+            #firstpic{
+                background: url(Assets/sections/1.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            #secondpic{
+                background: url(Assets/sections/2.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            #thirdpic{
+                background: url(Assets/sections/3.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            #fourthpic{
+                background: url(Assets/sections/4.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            .right{
+                position: relative;
+                left: 300px;
+            }
+
+            h1{
+                font-family: 'Playfair Display', serif;
+                font-size: 78px;
+                font-weight: 300;
+                color: #1c1c21;
+            }
+
+            p{
+                width: 50%;
+
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                line-height: 30px;
+                color: #1c1c21;
+            }
+}

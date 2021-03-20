@@ -1,0 +1,94 @@
+#jumpers .overlay{
+    width: 100%;
+    height: 100%;
+
+    background: #1c1c21ed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumpers a{
+    width: auto;
+
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+
+    transition: all .9s;
+}
+    
+    #jumpers a:hover{
+        text-decoration: underline;
+
+        transform: scale(.95);
+    }
+
+#first{
+    background: url(Assets/jumpers/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#second{
+    background: url(Assets/jumpers/2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#third{
+    background: url(Assets/jumpers/3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#fourth{
+    background: url(Assets/jumpers/4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Phones, Mobiles and Tablets */
+@media screen and (max-width: 992px)
+{
+    #jumpers{
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+        #jumpers div{
+            width: 100%;
+            height: 25%;
+        }
+}
+
+/* Laptops, Desktops and Large Screens */
+@media screen and (min-width: 992px)
+{
+    #jumpers{
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+        #jumpers div{
+            width: 25%;
+        }
+}
